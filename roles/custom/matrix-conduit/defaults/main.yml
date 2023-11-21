@@ -53,6 +53,9 @@ matrix_conduit_rocksdb_max_open_files: 64
 # Enables registration. If set to false, no users can register on this server.
 matrix_conduit_allow_registration: false
 
+# An optional static "invite" code necessary to register an accoung.
+matrix_conduit_registration_token: ""
+
 matrix_conduit_allow_federation: true
 
 # Enable the display name lightning bolt on registration.
