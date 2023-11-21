@@ -39,6 +39,8 @@ rocksdb_max_open_files = {{ matrix_conduit_rocksdb_max_open_files }}
 
 # Enables registration. If set to false, no users can register on this server.
 allow_registration = {{ matrix_conduit_allow_registration | to_json }}
+# If registration is 
+registration_token = {{ matrix_conduit_registration_token }}
 
 allow_federation = {{ matrix_conduit_allow_federation | to_json }}
 
